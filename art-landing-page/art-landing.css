@@ -1,0 +1,119 @@
+h1:hover a:hover{
+    color:#5c89d1;
+    text-decoration: underline;
+}
+
+li:hover a:hover{
+    color:#5c89d1;
+    text-decoration: underline;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Lusitana', serif;
+    min-width: 595px;
+}
+
+.first-section{
+    background-image: url("http://images.fineartamerica.com/images-medium-large-5/pop-art-4-gary-grayson.jpg");
+    background-size: cover;
+    color:white;
+}
+
+.navbar{
+    /* background-color: #c5d3e8; */
+    background-image: url("https://motionarray.imgix.net/preview-207980-TbJ7ivXhcP-high_0013.jpg");
+    margin: 0% 10%;
+    box-shadow: 9px 9px 7px grey;
+    background-size:cover;
+}
+
+.logo{
+    display: inline-block;
+    margin-left:10px;
+}
+
+.top{
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+li{
+    float: right;
+    margin:20px;
+
+}
+
+.first-artist{
+    width:100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.art1{
+    width:20%;
+    margin: auto;
+    padding: 20px;
+}
+
+img{
+    box-shadow: 4px 4px 7px gray;
+    width:100%;
+    z-index: -1;
+}
+
+.second-section{
+    background-image: url("https://i.imgur.com/0JAD7Ys.jpg");
+    background-size: cover;
+    color:white;
+    
+}
+
+.third-section{
+    background-image: url("https://i.etsystatic.com/6229416/r/il/c9d0c6/1191131621/il_fullxfull.1191131621_abed.jpg");
+    background-size: cover;
+    color:white;
+    
+}
+
+
+.fourth-section{
+    background-image: url("https://d2jv9003bew7ag.cloudfront.net/uploads/Jackson-Pollock-detail.jpg");
+    background-size: cover;
+    color:white;
+    
+}
+
+img:hover{
+    transform: scale(1.2);
+    z-index: -1;
+}
+
+.box{
+    background-color: black;
+    opacity: 0.85;
+    padding:10px;
+}
+
+/* .parent { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    } */
