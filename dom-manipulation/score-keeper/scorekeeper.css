@@ -1,0 +1,28 @@
+#top{
+    background-color: #d9e7ff;
+    width: 60%;
+    margin: auto;
+    box-shadow: 7px 7px 7px grey;
+}
+
+#top-text{
+    padding: 10px;
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+}
+
+body{
+    background-color: #d9ffe0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#game{
+    width:75%;
+    margin:auto;
+    text-align: center;
+}
+
+.winner{
+    color:#306346;
+    font-family: 'DM Serif Text', serif;
+}
